@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "walks",
+  "info": {
+    "name": "walks",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "steps": {
+      "type": "integer"
+    },
+    "time": {
+      "type": "integer"
+    },
+    "date": {
+      "type": "date"
+    }
+  }
+}
